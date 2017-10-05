@@ -5,14 +5,28 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
-    "semantic-ui-less": "^2.2.12",
-    "semantic-ui-react": "^0.74.2"
+    "react-scripts": "1.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "fela": "^6.0.0",
+    "fela-beautifier": "^5.0.8",
+    "fela-perf": "^5.0.3",
+    "fela-plugin-embedded": "^5.1.3",
+    "fela-plugin-fallback-value": "^5.0.9",
+    "fela-plugin-logger": "^5.0.4",
+    "fela-plugin-lvha": "^5.0.8",
+    "fela-plugin-prefixer": "^5.0.9",
+    "fela-plugin-unit": "^5.0.8",
+    "fela-plugin-validator": "^5.0.8",
+    "prop-types": "^15.6.0",
+    "react-fela": "^6.0.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.74.2"
   }
 }
