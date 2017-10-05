@@ -30,7 +30,7 @@ export default () => {
       margin: 0,
       padding: 0,
     },
-    '#root,.sui-theme-editor'
+    '#root'
   )
 
   return renderer
