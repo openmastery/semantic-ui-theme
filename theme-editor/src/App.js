@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import {
-  Header,
-  Message
-}                           from 'semantic-ui-react';
+
+import Sidebar              from './components/Sidebar';
+import Main                 from './components/Main';
 
 class App extends Component {
   render() {
-    return (
-      <div className="sui-theme-editor">
-        <Header content='SUIR Header' />
-        <Message content='Here we go...' />
-      </div>
-    );
+    return [
+      <Sidebar />,
+      <Main />
+    ];
   }
 }
 
