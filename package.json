@@ -1,0 +1,13 @@
+{
+  "name": "semantic-ui-theme",
+  "version": "0.0.1",
+  "description": "Theme Package for Semantic-UI",
+  "main": "index.js",
+  "repository": "https://github.com/openmastery/semantic-ui-theme.git",
+  "author": "Kara Marie Rawson <rawsonkara@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+}
