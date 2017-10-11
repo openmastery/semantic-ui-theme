@@ -2,7 +2,7 @@
   "name": "semantic-ui-theme",
   "version": "0.0.1",
   "title": "Semantic UI Theme",
-  "description": "Semantic UI Theme empowers designers and developers by creating a shared vocabulary for UI Theming.",
+  "description": "Semantic UI Theme empower designers and developers by creating a stylesheet language that is compiled and dynamically rendered at runtime.",
   "homepage": "http://www.semantic-ui.com",
   "author": "Kara Marie Rawson <rawsonkara@gmail.com>",
   "license": "MIT",
