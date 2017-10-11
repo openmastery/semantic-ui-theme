@@ -17,8 +17,9 @@
     "install": "gulp install"
   },
   "devDependencies": {
-    "express": "^4.16.2",
     "gulp": "^3.9.1",
-    "gulp-help": "^1.6.1"
-  }
+    "gulp-help": "^1.6.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {}
 }
