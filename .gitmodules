@@ -1,0 +1,3 @@
+[submodule "semantic-ui"]
+	path = semantic-ui
+	url = https://github.com/openmastery/Semantic-UI.git
