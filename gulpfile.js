@@ -5,7 +5,8 @@
 var
   gulp         = require('gulp-help')(require('gulp')),
   install      = require('./tasks/install'),
-  start      = require('./tasks/start');
+  build        = require('./tasks/build');
+  start        = require('./tasks/start');
 
 /*
 // NOT IMPLEMENTED YET
@@ -40,10 +41,9 @@ var
 *******************************/
 
 gulp.task('install', 'Runs set-up', install);
-gulp.task('start', 'Runs webserver with Semantic-UI/examples', start);
-
+gulp.task('build', 'Makes example www from ./semantic-ui/examples+dist', build);
+gulp.task('start', 'Runs webserver with Semantic-UI/examples', ['build'], start);
 /* 
-// TODO create new task for running semantic-ui/examples
 gulp.task('default', false, [
   'check-install'
 ]);

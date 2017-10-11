@@ -53,6 +53,7 @@ var
 
 // // Export install task
 module.exports = function (callback) {
+	callback();
 
 // var
 //   currentConfig = requireDotFile('semantic.json'),
