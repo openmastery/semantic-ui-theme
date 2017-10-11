@@ -1,0 +1,23 @@
+{
+  "name": "semantic-ui-theme",
+  "version": "0.0.1",
+  "title": "Semantic UI Theme",
+  "description": "Semantic UI Theme empowers designers and developers by creating a shared vocabulary for UI Theming.",
+  "homepage": "http://www.semantic-ui.com",
+
+  "author": "Kara Marie Rawson <rawsonkara@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openmastery/semantic-ui-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openmastery/semantic-ui-theme/issues"
+  },
+  "scripts": {
+    "install": "gulp install"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
