@@ -1,0 +1,30 @@
+{
+  "name"        : "semantic theme",
+  "description" : "Semantic UI Theme empowers designers and developers by creating a shared vocabulary for UI Theming.",
+  "homepage"    : "http://www.semantic-ui.com",
+  "author": {
+    "name" : "Kara Marie Rawson",
+    "web"  : "http://www.facebook.com/snozberrys"
+  },
+  "dependencies": {
+    "jquery"      : ">=1.8"
+  },
+  "main": [
+    "semantic-ui/src/semantic.less",
+    "semantic-ui/dist/semantic.js"
+  ],
+  "keywords" : [
+    "semantic",
+    "ui",
+    "css",
+    "js",
+    "theme",
+    "yaml"
+    "framework"
+  ],
+  "license" : "MIT",
+  "ignore": [
+    "semantic/src/site",
+    "semantic-ui/test"
+  ]
+}
