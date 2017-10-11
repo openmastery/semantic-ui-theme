@@ -2,6 +2,10 @@
             Set-up
 *******************************/
 
+var
+  gulp         = require('gulp-help')(require('gulp')),
+  install      = require('./tasks/install');
+
 /*
 // NOT IMPLEMENTED YET
 var
@@ -33,6 +37,8 @@ var
 /*******************************
              Tasks
 *******************************/
+
+gulp.task('install', 'Runs set-up', install);
 
 /* 
 // TODO create new task for running semantic-ui/examples
