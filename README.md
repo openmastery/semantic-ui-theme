@@ -1,3 +1,5 @@
+ ![alt text](https://i.imgur.com/AbdW8ND.png "Semantic UI Theme Logo")
+ 
 # Semantic UI Theme
 
 Creating a better style theming with Semantic UI. This project's goal is to empower designers and developers by creating a stylesheet language that is compiled and dynamically rendered at runtime. See issue #1 for the big idea and conversation.
@@ -29,9 +31,12 @@ You can read more about submodules through [this article](https://twoguysarguing
 
 There are currently three very ghetto gulp tasks:
 
- - Install: is hooked into the default install script and ran automagically //stub
- - Build: copys the files required by the semantic submodule into a ./build directory
- - Start: calls `build` and then starts a web server hosting the root of the project at http://localhost:8000
+ - **Install**: is hooked into the default install script and ran automagically //stub
+ - **Build**: copys the files required by the semantic submodule into a ./build directory
+ - **Start**: calls `build` and then starts a web server hosting the root of the project at http://localhost:8000
  
  future work will include extending the `build` task to compile and update example code from `./semantic-ui` submodule. Currently you must do these tasks manually. ugh.
 
+GLHF;
+
+ ![alt text](https://i.imgur.com/cBWger3.jpg "I'm pickle Rick!!!!!!!!")
