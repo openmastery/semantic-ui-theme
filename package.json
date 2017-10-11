@@ -1,0 +1,25 @@
+{
+  "name": "semantic-ui-theme",
+  "version": "0.0.1",
+  "title": "Semantic UI Theme",
+  "description": "Semantic UI Theme empower designers and developers by creating a stylesheet language that is compiled and dynamically rendered at runtime.",
+  "homepage": "http://www.semantic-ui.com",
+  "author": "Kara Marie Rawson <rawsonkara@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openmastery/semantic-ui-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openmastery/semantic-ui-theme/issues"
+  },
+  "scripts": {
+    "install": "gulp install"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {}
+}
