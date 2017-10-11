@@ -60,3 +60,6 @@ typings/
 # Editor
 *.sublime-project
 *.sublime-workspace
+
+# builder bob
+build/*
